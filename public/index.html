@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>KHUSHI AI</title>
+
+  <link
+    rel="stylesheet"
+    href="/style.css"
+  >
+</head>
+
+<body>
+
+  <div class="app">
+
+    <header class="topbar">
+
+      <div class="brand">
+        <div class="logo">K</div>
+
+        <div>
+          <h1>KHUSHI AI</h1>
+          <span>Personal AI Assistant</span>
+        </div>
+      </div>
+
+      <div class="status">
+        <span
+          id="statusDot"
+          class="dot"
+        ></span>
+
+        <span id="statusText">
+          Connecting...
+        </span>
+      </div>
+
+    </header>
+
+    <main class="chat-area">
+
+      <section class="welcome">
+
+        <div class="orb">
+          <div class="orb-inner">
+            K
+          </div>
+        </div>
+
+        <h2>
+          Hello, I'm KHUSHI 👋
+        </h2>
+
+        <p>
+          Your real-time AI assistant
+        </p>
+
+      </section>
+
+      <section
+        id="chat"
+        class="chat"
+      ></section>
+
+    </main>
+
+    <div class="input-area">
+
+      <button
+        id="micBtn"
+        class="icon-btn"
+        title="Voice input"
+      >
+        🎤
+      </button>
+
+      <textarea
+        id="messageInput"
+        rows="1"
+        placeholder="Message KHUSHI..."
+      ></textarea>
+
+      <button
+        id="sendBtn"
+        class="send-btn"
+      >
+        ➤
+      </button>
+
+    </div>
+
+    <div class="bottom">
+
+      <button id="clearBtn">
+        Clear Chat
+      </button>
+
+      <span>
+        KHUSHI AI • Real-time AI
+      </span>
+
+    </div>
+
+  </div>
+
+  <script src="/app.js"></script>
+
+</body>
+</html>
