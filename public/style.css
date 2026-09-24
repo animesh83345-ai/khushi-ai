@@ -29,18 +29,14 @@
 
 body {
   min-height: 100vh;
+
+  /* Custom Khushi AI background */
   background:
-    radial-gradient(
-      circle at 50% -10%,
-      rgba(59, 130, 246, 0.15),
-      transparent 35%
+    linear-gradient(
+      rgba(0, 0, 0, 0.42),
+      rgba(0, 0, 0, 0.56)
     ),
-    radial-gradient(
-      circle at 100% 100%,
-      rgba(124, 58, 237, 0.10),
-      transparent 35%
-    ),
-    var(--bg);
+    url("/background.jpg") center center / cover no-repeat fixed;
 
   color: var(--text);
 
